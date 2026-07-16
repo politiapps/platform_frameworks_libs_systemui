@@ -4,7 +4,7 @@ plugins {
 
 // Lawnchair-TODO-Postmerge: AOSP now uses kts build scripts for this
 android {
-    namespace "com.android.launcher3.icons"
+    namespace = "com.android.launcher3.icons"
     sourceSets {
         main {
             java.srcDirs = ['src', 'src_full_lib']

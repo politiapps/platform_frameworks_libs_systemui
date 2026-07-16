@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace "com.android.app.displaylib"
+    namespace = "com.android.app.displaylib"
     sourceSets {
         main {
             java.srcDirs = ['src']
